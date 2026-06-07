@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My webpage</title>
+    <style>
+        h1{
+            color:green;
+            text-decoration:none;
+        }
+        p{
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .p_one{
+            color:red;
+            font-size: medium;
+        }
+        #p_two{
+            color:blue;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>HAI</h1>
+        <p><b>A family is a fundamental group of people united by blood, marriage, adoption, or deep emotional ties.<br> They generally live together, share resources, and provide emotional, social, and economic support for one another.</b></p>
+        <br>
+        <p class="p_one"><b>A family is a fundamental group of people united by blood, marriage, adoption, or deep emotional ties.<br> They generally live together, share resources, and provide emotional, social, and economic support for one another.</b></p>
+        <br><br>
+        <p id="p_two"><b>A family is a fundamental group of people united by blood, marriage, adoption, or deep emotional ties.<br> They generally live together, share resources, and provide emotional, social, and economic support for one another.</b></p>
+        <br>
+    </body>
+</html>
