@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <input type="text" id="name">
+        <button onclick="showName()">Submit</button>
+        <p id="output"></p>
+        <script>
+            function showName(){
+                let name=document.getElementById("name").value;
+                document.getElementById("output").innerHTML="Welcome"+ name;
+            }
+        </script>
+    </body>
+</html>
